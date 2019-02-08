@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <body>
+    <form action="registration.html" method="POST">
+        <h1>60 day for a New Me Challenge</h1>
+					<section class="Age">
+          <label for="gender">What is your gender?</label>
+    			<input type="text" name="gender" id="gender">
+        </section>
+        <hr>
+        <section class="age">
+          <label for="age">What is your age?</label>
+          <input type="number" name="age" id="age">
+        </section>
+        <hr>
+        <section class="activity">
+          <label for="activity">How active is your lifestyle</label>
+          <br>
+          <span>Sedentary</span>
+          <input type="range" name="activity" id="activity" value="3" min="1" max="5">
+          <span>active</span>
+        </section>
+        <hr>
+        <section class="focus">
+          <span>What would you like to focus on?</span>
+          <br>
+          <input type="checkbox" name="activity" id="cardio" value="lettuce">
+          <label for="cardio">Cardio</label>
+          <input type="checkbox" name="activity" id="fat loss" value="tomato">
+          <label for="fat loss">Fat loss</label>
+          <input type="checkbox" name="activity" id="muscle toning" value="onion">
+          <label for="muscle toning">Muscle toning</label>
+        </section>
+        <hr>
+        <section class="run">
+          <span>Would you like to include running?</span>
+          <br>
+          <input type="radio" name="run" id="yes" value="yes">
+          <label for="yes">Yes</label>
+          <input type="radio" name="run" id="no" value="yes">
+          <label for="no">No</label>
+        </section>
+        <hr>
+        <section class="location">
+          <label for="bun">Where will you work out?</label>
+          <select name="location" id=location>
+            <option value="gym">Gym</option>
+            <option value="home">Home</option>
+            <option value="a mix">A mix</option>
+          </select>
+        </section>
+        <hr>
+        <section class="restrictions">
+          <label for="restrictions">What joints might interfer with performance?</label>
+          <input list="restrictions" id="restrictions" name="restrictions">
+          <datalist id="restrictions">
+            <option value="Knees"></option>
+            <option value="Shoulders"></option>
+            <option value="Low Back"></option>
+            <option value="Other"></option>
+          </datalist>
+        </section>
+        <hr>
+        <section class="extra-info">
+          <label for="extra">Tell us what is motivating you? What might hold you back?</label>
+          <br>
+          <textarea id="extra" name="extra" rows="3" cols="40"></textarea>
+        </section>
+        <hr>
+
+        <section class="submission">
+            <input type="submit" value="Submit">
+        </section>
+        
+      </form>
+    </body>
+</html>
